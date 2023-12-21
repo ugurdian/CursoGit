@@ -1,0 +1,22 @@
+h1{
+    color: crimson;
+}
+section{
+    border: 5px solid brown;
+    margin: 25px;
+    padding: 10px;
+}
+a:link, a:visited{
+    background-color: #b5179e;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover, a:active{
+    background-color: #560bad;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
