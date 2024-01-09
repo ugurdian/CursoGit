@@ -6,6 +6,23 @@ section{
     margin: 25px;
     padding: 10px;
 }
+.menu{
+    list-style-type: none;
+    background-color: #457b9d;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.menu li{
+    float: left;
+}
+.menu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-color:white;
+}
 a:link, a:visited{
     background-color: #b5179e;
     color: white;
@@ -21,7 +38,7 @@ a:hover, a:active{
     text-decoration: none;
 }
 ul{
-    list-style-type:armenian;
+    list-style-type:square;
 }
 table, th, td{
     border: 1px solid black;
