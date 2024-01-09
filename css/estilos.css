@@ -20,6 +20,9 @@ a:hover, a:active{
     text-align: center;
     text-decoration: none;
 }
+ul{
+    list-style-type:armenian;
+}
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
