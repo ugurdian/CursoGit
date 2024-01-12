@@ -1,8 +1,11 @@
 h1{
     color: crimson;
 }
+h2{
+    color: #457b9d;
+}
 section{
-    border: 5px solid brown;
+    border: 1px solid brown;
     margin: 25px;
     padding: 10px;
 }
