@@ -1,8 +1,11 @@
 h1{
     color: crimson;
 }
+h2{
+    color: #457b9d;
+}
 section{
-    border: 5px solid brown;
+    border: 1px solid brown;
     margin: 25px;
     padding: 10px;
 }
@@ -40,6 +43,22 @@ a:hover, a:active{
 ul{
     list-style-type:square;
 }
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+
+ol li::before{
+    content: "Curso " counter(contador) ") ";
+    color:#ff6f00;
+}
+ol li::after{
+    content: ".";
+}
+
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
